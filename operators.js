@@ -135,7 +135,7 @@ let product = 2 * 6;
     // Multiplication assignment operator (*=): Multiplies a value by a variable and assigns the result back to the variable.
     myVariable *= 3;
     console.log(myVariable);
-    
+     
     // Division assignment operator (/=): Divides a value by a variable and assigns the result back to the variable.
     myVariable /= 3;
     console.log(myVariable);
