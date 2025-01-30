@@ -8,13 +8,20 @@
 // slice()	selects the part of an array and returns the new array
 // splice()	removes or replaces existing elements and/or adds new elements
 
-const fruits =[
-    "apple",
-    "pomegranate",
-    "mango",
-    "strawberries",
-    "pineapple",
-    "grapefruit",
+const fruits = [
+  "apple",
+  "pomegranate",
+  "mango",
+  "strawberries",
+  "pineapple",
+  "grapefruit",
 ];
 console.log(fruits.length);
-fruits.push("banana")
+fruits.push("banana");
+const moreFruits = ["peach", "orange", "watermelon"];
+const TotalFruits = fruits.concat(moreFruits);
+console.log(TotalFruits);
+
+const pl = ["Java", "Javascript", "Python", "Php"];
+console.log(pl.includes("Golang"));
+console.log(pl.join("Liam"));
